@@ -74,7 +74,7 @@ export class UserUpsertComponent implements OnInit {
     this.dataservice.postuser(this.usermodelobj).subscribe(res=>{
       this.formValue.reset();
       this.getData()
-      alert("Record Updated Successfully !");
+      alert("Record Added Successfully !");
     },
   err=>{
     alert("Something Went Wrong")
