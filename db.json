@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "id": "0",
+      "fname": "Aniket",
+      "lname": "Karne",
+      "address": "Pune",
+      "email": "aniket@gmail.com",
+      "phone": 9960969194
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
